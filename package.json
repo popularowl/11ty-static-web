@@ -1,8 +1,11 @@
 {
-  "name": "11ty-minimal-web",
+  "name": "11ty-static-web",
   "version": "1.0.0",
-  "description": "minimal 11ty web static site, clean design included",
+  "description": "static website, powered by 11ty generator. clean and minimalistic design",
   "main": "index.js",
+  "engines": {
+    "node": ">=20.18.0"
+  },
   "scripts": {
     "build": "rimraf dist && npx @11ty/eleventy",
     "build:dev": "ELEVENTY_ENV=dev && build",
@@ -16,8 +19,7 @@
     "11ty",
     "11ty rss",
     "markdown",
-    "11ty sitemaps",
-    "11ty alpine.js"
+    "11ty sitemaps"
   ],
   "author": {
     "name": "Saulius Zukauskas",
