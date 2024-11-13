@@ -8,7 +8,7 @@ changefreq: weekly
 priority: 0.8
 ---
 
-Blog post to showcase how code pieces can be rendered using markdown syntax and some CSS styles.
+This blog post to shows how `code` within makdown is being rendered to HTML with some CSS styles.
 
 Check the `source code` of this page.
 
