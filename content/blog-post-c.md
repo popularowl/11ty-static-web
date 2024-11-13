@@ -12,4 +12,3 @@ A lean example of static web site, powered by <a href="https://www.11ty.dev/" ta
 
 - [about](/about/)
 - [blog](/blog/)
-- [getting-started](/getting-started/)

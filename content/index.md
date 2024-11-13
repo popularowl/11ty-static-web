@@ -10,8 +10,8 @@ priority: 0.8
 
 # 11ty Static Web
 
-A lean example of static web site, powered by <a href="https://www.11ty.dev/" target="_blank" rel="noopener">11ty static site generator</a>. Static site generators help to convert websites in to a set of static files.
+A lean example of static web site, powered by <a href="https://www.11ty.dev/" target="_blank" rel="noopener">11ty static site generator</a>. Static site generators help to convert websites in to a set of static HTML files.
 
-<a href="https://www.11ty.dev/" target="_blank" rel="noopener">11ty static web</a> is built to showcase different ways of hosting static web projects. And how to ***automate all steps*** freeing significant amount of time.
+This project is built to showcase different ways of hosting static web projects. And how to ***automate all the necesarry steps*** while freeing significant amount of time.
 
 Enjoy!
