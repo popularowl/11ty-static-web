@@ -1,0 +1,7 @@
+# things we don't version control
+.DS_Store
+.cache
+.env
+dist
+node_modules
+notes.md
