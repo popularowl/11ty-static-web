@@ -6,9 +6,9 @@ It's created as an example open source project for a book - [Just deploy static 
 
 This project is also referenced in several online tutorials:
 
-- [Building simple 11ty blog with minimal design](/)
-- [How to add dark theme switch to 11ty blog](/)
-- [Add sitemaps and RSS feeds to 11ty blog](/)
+- [How to build a static website with 11ty](https://www.htmlcenter.com/blog/how-to-build-static-website-with-11ty/)
+- [Add CSS styles, sitemap and RSS to 11ty site](https://www.htmlcenter.com/blog/build-static-website-with-11ty-part-2)
+
 
 ### Build
 
