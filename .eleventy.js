@@ -1,4 +1,5 @@
 const Image = require("@11ty/eleventy-img");
+const { feedPlugin } = require("@11ty/eleventy-plugin-rss");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const { minify } = require('html-minifier-terser');
 const { DateTime } = require('luxon');
@@ -48,6 +49,25 @@ module.exports = function(eleventyConfig) {
         zone: 'utc'
         }).toFormat(format);
     });
+
+    eleventyConfig.addPlugin(feedPlugin, {
+		type: "atom", // or "rss", "json"
+		outputPath: "/feed.xml",
+		collection: {
+			name: "blog", // iterate over `collections.blog`
+			limit: 10,     // 0 means no limit
+		},
+		metadata: {
+			language: "en",
+			title: "11ty static website",
+			subtitle: "Minimal static 11ty website",
+			base: "https://localhost:8080/",
+			author: {
+				name: "Popularowl",
+				email: "", // Optional
+			}
+		}
+	});
 
     // custom shortcodes
     eleventyConfig.addShortcode('version', () => `${+ new Date()}`);
