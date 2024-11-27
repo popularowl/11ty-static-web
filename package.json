@@ -8,8 +8,8 @@
   },
   "scripts": {
     "build": "rimraf dist && npx @11ty/eleventy",
-    "build:dev": "ELEVENTY_ENV=dev && build",
-    "build:prod": "ELEVENTY_ENV=prod && build",
+    "build:dev": "ELEVENTY_ENV=dev && npm run build",
+    "build:prod": "ELEVENTY_ENV=prod && npm run build",
     "clean": "rimraf dist",
     "dev": "rimraf dist && npx @11ty/eleventy --watch --serve --incremental",
     "debug": "DEBUG=Eleventy* npm run dev"
