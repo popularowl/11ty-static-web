@@ -4,7 +4,7 @@
   "description": "static website, powered by 11ty generator. clean and minimalistic design",
   "main": "index.js",
   "engines": {
-    "node": ">=20.18.0"
+    "node": ">=18.17.1"
   },
   "scripts": {
     "build": "rimraf dist && npx @11ty/eleventy",
