@@ -1,6 +1,6 @@
 ---
 title: About 11ty static web
-description: This is a lean static website, powered by 11ty.dev
+description: Example lean static website, built by 11ty.dev static site generator
 layout: layouts/about.njk
 changefreq: weekly
 priority: 0.9
@@ -8,13 +8,12 @@ priority: 0.9
 
 # About
 
-This is a lean static web site, powered by <a href="https://www.11ty.dev/" target="_blank" rel="noopener">11ty static site generator</a>.
+Example lean static web site, powered by [11ty static site generator](https://www.11ty.dev/).
 
-It's created as an example open source project for a book - [Just deploy static websites!](/) A short book that teaches you how to professionally deploy static websites on the multiple platforms. And how to automate the whole flow.
+Created as an example open source project for [tutorials](https://www.htmlcenter.com/blog/how-to-build-static-website-with-11ty/) on [Htmlcenter](https://www.htmlcenter.com/blog/build-static-website-with-11ty-part-2/). Includes sitemap, dynamic RSS feed and configurations for deployments to various cloud hosting platforms.
 
 ## Useful links
 
-- <a href="https://github.com/popularowl/11ty-static-web" target="_blank">Github</a>
+- [Home](/)
 - [Blog posts](/blog/)
 - [About](/about/)
-- ...
