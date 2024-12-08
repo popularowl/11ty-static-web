@@ -8,4 +8,4 @@ priority: 0.9
 
 # Blog Posts
 
-List of all published blog posts.
+List of all the published blog posts.
