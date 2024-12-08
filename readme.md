@@ -1,4 +1,5 @@
 # 11ty static web
+[![Netlify Status](https://api.netlify.com/api/v1/badges/50e31964-3023-4566-a06b-021c7a8bdba2/deploy-status)](https://app.netlify.com/sites/11ty-static-web/deploys)
 
 Source code for a lean, static website, powered by [11ty static site generator](https://www.11ty.dev/).
 
