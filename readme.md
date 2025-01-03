@@ -11,6 +11,10 @@ Referenced in tutorials:
 - [Add sitemap and RSS to 11ty static website](https://www.htmlcenter.com/blog/build-static-website-with-11ty-part-2)
 - [Hosting 11ty static website on Cloudflare pages](https://www.htmlcenter.com/blog/static-website-hosting-with-cloudflare-pages/)
 
+Demo sites:
+- [Demo on Cloudflare](https://11ty-static-web.pages.dev/)
+- [Demo on Netlify](https://11ty-static-web.netlify.app/)
+
 ## Build
 
 The prerequisite for this project is Node.js v18 or higher. Check your environment with `node --version`
